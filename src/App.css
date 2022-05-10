@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.red1 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.red2 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blue1 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.blue2 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.green1 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+}
+
+.green2 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+}
+
+.black {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+}
+.buttonToReset{
+    background-color: steelblue;
+    color: white;
+    border:none;
+}
+.winParagraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:"black",
+}
+.alert-container{
+    display: flex;
+    justify-content: center;
 }
